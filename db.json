@@ -1,11 +1,6 @@
 {
   "users": [
     {
-      "id": "1",
-      "name": "John Doe",
-      "email": "john.doe@example.com"
-    },
-    {
       "id": "2",
       "name": "Jane Smith",
       "email": "jane.smith@example.com"
@@ -64,11 +59,6 @@
       "id": "13",
       "name": "Bibek Bhusal",
       "email": "bibek@gmail.com"
-    },
-    {
-      "id": "97af",
-      "name": "Bibekananda Bhusall",
-      "email": "aliza.regmi.14@gmail.com"
     }
   ]
 }
