@@ -37,7 +37,10 @@ function App() {
               <td>{d.id}</td>
               <td>{d.name}</td>
               <td>{d.email}</td>
-              <td>Up/De</td>
+              <td>
+                <Link to={`/update/${d.id}`} className='btn btn-sn btn-success'>Update</Link>
+                <Link to='/delete' className='btn btn-sn ms-1 btn-danger'>Delete</Link>
+              </td>
             </tr>
           ))
         }
