@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
 
   return (
    <div className='container mt-5'>
+    <div className="text-end"><Link to="/create" className='btn btn-primary'>Add +</Link></div>
     <table className="table">
       <thead>
         <tr>

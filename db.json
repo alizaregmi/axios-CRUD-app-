@@ -1,5 +1,5 @@
 {
-    "users": [
+  "users": [
     {
       "id": 1,
       "name": "John Doe",
@@ -49,6 +49,11 @@
       "id": 10,
       "name": "Liam Garcia",
       "email": "liam.garcia@example.com"
+    },
+    {
+      "id": "bee2",
+      "name": "Aliza Regmi",
+      "email": "test@test.com"
     }
   ]
 }
